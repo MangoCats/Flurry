@@ -3,7 +3,7 @@ Quick code to read an rstp:// stream and check a region for "bright pixels" corr
 
 Environment setup:
 
-sudo apt install build-essential libopencv-dev libpaho-mqtt-dev
+sudo apt install build-essential cmake xcb libopencv-dev libpaho-mqtt-dev
 
 To build:
 
