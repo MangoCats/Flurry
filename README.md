@@ -7,10 +7,12 @@ sudo apt install build-essential cmake xcb libopencv-dev libpaho-mqtt-dev
 
 To build:
 
+```
 mkdir build
 cd build
 cmake ..
 make
+```
 
 or, run the ./build.sh script.
 
@@ -19,6 +21,7 @@ Executable is in build folder named: Flurry
 
 Notes:
 
+```
 https://stackoverflow.com/questions/11541154/checking-images-for-similarity->
 
 // Compare two images by getting the L2 error (square-root of sum of squared>
@@ -35,4 +38,4 @@ double getSimilarity( const Mat A, const Mat B ) {
         return 100000000.0;  // Return a bad value
     }
 }
-
+```
